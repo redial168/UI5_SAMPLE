@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.21",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 的自定义格式器(Custom Formatter)",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

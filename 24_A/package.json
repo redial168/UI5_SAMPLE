@@ -1,0 +1,23 @@
+{
+  "name": "sap.ui5.walkthrough.24",
+  "version": "0.0.1",
+  "private": true,
+  "description": "如何使用 OData 数据模型",
+  "keywords": [
+    "ui5",
+    "openui5",
+    "sapui5"
+  ],
+  "main": "webapp/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "@ui5/cli": "^3.0.0",
+    "@sap/ux-ui5-tooling": "1",
+    "@sap/ux-specification": "UI5-1.112",
+    "@sap-ux/ui5-middleware-fe-mockserver": "2"
+  },
+  "scripts": {
+    "start": "fiori run"
+  },
+  "sapux": true
+}

@@ -1,0 +1,20 @@
+{
+	"sap.app": {
+		"id": "sap.ui5.walkthrough",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui5": {
+		"rootView": {
+			"viewName": "sap.ui5.walkthrough.Page",
+			"type": "XML",
+			"async": true
+		},
+		"dependencies": {
+			"libs": {
+				"sap.ui.layout": {}
+			}
+		}
+	}
+}

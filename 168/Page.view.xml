@@ -1,0 +1,33 @@
+<mvc:View height="100%" controllerName="sap.ui5.walkthrough.Page" xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns="sap.m">
+	<Page showHeader="false" class="sapUiContentPadding">
+		<content>
+			<VBox justifyContent="SpaceAround">
+				<Select items="{
+							path: '/AuthorCollection'
+						}" change=".onChange">
+					<core:Item key="{AuthorID}" text="{AuthorName}" />
+				</Select>
+
+				<Table items="{/Books}">
+					<columns>
+						<Column>
+							<Text text="Book ID" />
+						</Column>
+						<Column>
+							<Text text="Name" />
+						</Column>
+					</columns>
+					<items>
+						<ColumnListItem>
+							<cells>
+								<Text text="{BookId}" />
+								<Text text="{Name}" />
+							</cells>
+						</ColumnListItem>
+					</items>
+				</Table>
+			</VBox>
+		</content>
+	</Page>
+</mvc:View>

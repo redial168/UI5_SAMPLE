@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>如何将本地 SAP UI5 应用配置到本地 Fiori Launchpad 中</title>
+
+	<script>
+		window["sap-ushell-config"] = {
+			defaultRenderer: "fiori2",
+			applications: {
+				"barcode-scan": {
+					title: "App 1",
+					description: "应用程序1",
+					additionalInformation: "SAPUI5.Component=sap.ui5.walkthrough.app1",
+					applicationType : "URL",
+					navigationMode: "embedded"
+				}
+			}
+		};
+	</script>
+
+	<script src="https://sapui5.hana.ondemand.com/test-resources/sap/ushell/bootstrap/sandbox.js"></script>
+	<script src="https://sapui5.hana.ondemand.com/resources/sap-ui-core.js"
+		data-sap-ui-libs="sap.m, sap.ushell, sap.collaboration, sap.ui.layout" data-sap-ui-compatVersion="edge"
+		data-sap-ui-theme="sap_fiori_3"
+		data-sap-ui-resourceroots='{
+			"sap.ui5.walkthrough": "./"
+		}' 
+		data-sap-ui-frameOptions="allow"></script>
+	<script>
+		sap.ui.getCore().attachInit(() => sap.ushell.Container.createRenderer("fiori2", true).then(
+			(oRenderer) => {
+				oRenderer.placeAt("content");
+			}
+		));
+	</script>
+</head>
+
+<body class="sapUiBody" id="content"></body>
+</html>

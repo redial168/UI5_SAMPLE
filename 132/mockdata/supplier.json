@@ -1,0 +1,23 @@
+{
+	"SupplierCollection": [
+		{
+			"SupplierName": "肯德基",
+			"Street": "成都高新区天府一街",
+			"HouseNumber": "1618",
+			"ZIPCode": "31415",
+			"City": "成都",
+			"Country": "中国",
+			"Url": "http://www.abc.com",
+			"Twitter": "aa@bb.com",
+			"Tel": "139 6227 747474",
+			"Sms": "138 173 123456",
+			"Mobile": "137 173 123456",
+			"Pager": "136 173 123456",
+			"Fax": "135 123 456789",
+			"Email": "john@kfc.com",
+			"Rating": 4,
+			"Prime": "true",
+			"Disposable": 30
+		}
+	]
+}

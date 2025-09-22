@@ -1,0 +1,16 @@
+{
+  "name": "sap.m.tutorial.walkthrough.54",
+  "version": "1.0.0",
+  "author": "jerry",
+  "description": "如何将本地 SAP UI5 应用配置到本地 Fiori Launchpad 中",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "dependencies": {
+    "@openui5/sap.m": "^1",
+    "@sapui5/sap.ndc": "^1"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

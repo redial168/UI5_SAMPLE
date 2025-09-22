@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.84",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 初学者教程之六 - 如何指定 SAP UI5 应用程序基于某个特定的版本运行",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

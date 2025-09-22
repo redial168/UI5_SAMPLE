@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.93",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "基于 JSONModel 数据模型的列表控件显示数据的深入讨论",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

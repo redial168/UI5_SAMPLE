@@ -1,0 +1,13 @@
+{
+  "name": "sap-m-sample--object-status",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "173. SAP UI5 控件 ObjectStatus 的使用方法介绍",
+  "scripts": {
+    "start": "ui5 serve",
+    "build": "ui5 build"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^3"
+  }
+}

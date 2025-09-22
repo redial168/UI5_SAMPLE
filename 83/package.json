@@ -1,0 +1,12 @@
+{
+  "name": "sap.m.tutorial.walkthrough.83",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 的自动化测试套件页面的开发步骤介绍",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

@@ -1,0 +1,12 @@
+node_modules/
+*/node_modules/
+.vscode/
+package-lock.json
+./*/package-lock.json
+.env
+webapp/dist
+**/dist
+resources/
+.bat
+*.bat
+settings.js

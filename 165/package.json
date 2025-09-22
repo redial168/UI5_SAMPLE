@@ -1,0 +1,14 @@
+{
+  "name": "sap.m.tutorial.walkthrough.165",
+  "version": "1.0.0",
+  "author": "Jerry",
+  "description": "SAP UI5 应用如何采取 JavaScript 代码调用 OData API 读取满足过滤条件的业务数据($filter 操作)",
+  "scripts": {
+    "start": "ui5 serve",
+    "start-proxy": "npx cors-http-proxy -t https://services.odata.org -p 8089"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0",
+    "cors-http-proxy": "^2.0.0"
+  }
+}

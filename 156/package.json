@@ -1,0 +1,12 @@
+{
+  "name": "sap.ui5.walkthrough",
+  "version": "1.0.0",
+  "author": "SAP SE",
+  "description": "156. 如何在 SAP UI5 应用里显示 PDF 文件",
+  "scripts": {
+    "start": "ui5 serve"
+  },
+  "devDependencies": {
+    "@ui5/cli": "^2.0.0"
+  }
+}

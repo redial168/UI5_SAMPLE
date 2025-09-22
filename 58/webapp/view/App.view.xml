@@ -1,0 +1,23 @@
+<mvc:View
+	controllerName="sap.ui5.walkthrough.controller.App"
+	xmlns="sap.m"
+	xmlns:core="sap.ui.core"
+	xmlns:form="sap.ui.layout.form"
+	xmlns:l="sap.ui.layout"
+	xmlns:mvc="sap.ui.core.mvc">
+	
+	<Panel headerText="{i18n>panel3HeaderText}" class="sapUiResponsiveMargin" width="auto">
+		<List
+			id="ProductList"
+			headerText="{i18n>productListTitle}"
+			items="{
+				path: 'products>/Products',
+				factory: '.productListFactory'
+			}">
+			<dependents>
+				<core:Fragment fragmentName="sap.ui5.walkthrough.view.ProductSimple" type="XML"/>
+				<core:Fragment fragmentName="sap.ui5.walkthrough.view.ProductExtended" type="XML"/>
+			</dependents>
+		</List>
+	</Panel>
+</mvc:View>
